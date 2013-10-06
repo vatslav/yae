@@ -2,16 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regEdu/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regEdu/edu1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/regEdu/edu2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/other.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/testrunner.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regEdu/edu1.py" afterPath="$PROJECT_DIR$/regEdu/edu1.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regEdu/edu2.py" afterPath="$PROJECT_DIR$/regEdu/edu2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/hostHandler.py" afterPath="$PROJECT_DIR$/hostHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yandexExam1.iml" afterPath="$PROJECT_DIR$/.idea/yandexExam1.iml" />
     </list>
     <ignored path="yandexExam1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -23,8 +17,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381088920835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381087405807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381089954636" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381091454543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381090963087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,10 +33,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hostHandler.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="hostHandler.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hostHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="202" max-vertical-offset="795">
+            <state line="25" column="24" selection-start="540" selection-end="540" vertical-scroll-proportion="0.45531198" vertical-offset="90" max-vertical-offset="810">
               <folding />
             </state>
           </provider>
@@ -50,16 +45,16 @@
       <file leaf-file-name="edu1.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regEdu/edu1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="53" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+            <state line="7" column="59" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="edu2.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="edu2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+            <state line="4" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
               <folding />
             </state>
           </provider>
@@ -83,9 +78,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/hostHandler.py" />
         <option value="$PROJECT_DIR$/trash.py" />
+        <option value="$PROJECT_DIR$/regEdu/edu1.py" />
         <option value="$PROJECT_DIR$/regEdu/edu2.py" />
+        <option value="$PROJECT_DIR$/hostHandler.py" />
       </list>
     </option>
   </component>
@@ -180,7 +176,7 @@
       <recent name="$PROJECT_DIR$/regEdu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.trash">
+  <component name="RunManager" selected="Python.hostHandler">
     <configuration default="false" name="hostHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,6 +212,25 @@
       <module name="yandexExam1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regEdu/edu1.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="edu2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/regEdu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regEdu/edu2.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -371,14 +386,16 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.hostHandler" />
       <item index="1" class="java.lang.String" itemvalue="Python.trash" />
+      <item index="2" class="java.lang.String" itemvalue="Python.edu2" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.trash" />
-        <item index="1" class="java.lang.String" itemvalue="Python.hostHandler" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.hostHandler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.edu2" />
+        <item index="2" class="java.lang.String" itemvalue="Python.trash" />
       </list>
     </recent_temporary>
   </component>
@@ -406,12 +423,18 @@
       <created>1380616873366</created>
       <updated>1380616873366</updated>
     </task>
+    <task id="LOCAL-00001" summary="попрбовал кучу вариантов. учу регулярные выражения на более выском уровне">
+      <created>1381089414717</created>
+      <updated>1381089414717</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="960" y="27" width="953" height="1053" extended-state="4" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -421,7 +444,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32683983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32683983" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -439,6 +462,8 @@
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="попрбовал кучу вариантов. учу регулярные выражения на более выском уровне" />
+    <option name="LAST_COMMIT_MESSAGE" value="попрбовал кучу вариантов. учу регулярные выражения на более выском уровне" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -472,13 +497,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/hostHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="0" selection-start="1050" selection-end="1050" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="795">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regEdu/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
@@ -488,14 +506,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regEdu/edu1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="53" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
+        <state line="7" column="59" selection-start="426" selection-end="426" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="593">
+        <state line="4" column="13" selection-start="47" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hostHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="540" selection-end="540" vertical-scroll-proportion="0.45531198" vertical-offset="90" max-vertical-offset="810">
           <folding />
         </state>
       </provider>
