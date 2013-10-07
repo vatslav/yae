@@ -4,7 +4,7 @@ class ShadowHandler(object):
     @staticmethod
     def userCount(shadowF):
         count = 0
-        pattern = re.compile(r'\w+[:]([*])|([!])')
+        pattern = re.compile(r'\w+[:]([^*?]|[^!?])')
         for line in shadowF:
             if re.match(pattern,line):
                 #print(line)

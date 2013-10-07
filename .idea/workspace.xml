@@ -1,15 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task1 - hostHandler/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/input.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task1 - hostHandler/output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/output.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/hostHandler.py" afterPath="$PROJECT_DIR$/task1 - hostHandler/hostHandler.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/input.txt" afterPath="$PROJECT_DIR$/task1 - hostHandler/input.txt" />
+    <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="навел порядок в директориях. работа над второй азадачей.&#10;почти сделал решение с регуляркой. потом подумал може чвто-то проще сделать?">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/regEdu/edu2.py" afterPath="$PROJECT_DIR$/regEdu/edu2.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2 - shadowFileHandler/input.txt" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2 - shadowFileHandler/output.txt" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" afterPath="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yandexExam1.iws" />
@@ -24,7 +22,8 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381162211225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381170493752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381171048417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
+    <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381179837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
+    <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381161971366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -42,7 +41,7 @@
       <file leaf-file-name="hostHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="675">
+            <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="75" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -60,25 +59,52 @@
       <file leaf-file-name="shadowFileHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="50" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+            <state line="18" column="0" selection-start="406" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="shadowHandlerSimple.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="shadowHandlerSimple.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+            <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="471">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input.txt" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="shadowRandomizer.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="23" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1 - hostHandler/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+            <state line="33" column="69" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="585">
               <folding />
             </state>
           </provider>
@@ -87,7 +113,7 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -96,16 +122,7 @@
       <file leaf-file-name="edu2.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="465">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edu1.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regEdu/edu1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="5" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
+            <state line="27" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -130,13 +147,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/trash.py" />
-        <option value="$PROJECT_DIR$/regEdu/edu2.py" />
         <option value="$PROJECT_DIR$/regEdu/edu1.py" />
         <option value="$PROJECT_DIR$/hostHandler.py" />
         <option value="$PROJECT_DIR$/task1 - hostHandler/hostHandler.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
-        <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/input.txt" />
+        <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py" />
+        <option value="$PROJECT_DIR$/regEdu/edu2.py" />
+        <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
       </list>
     </option>
   </component>
@@ -257,7 +275,7 @@
       <recent name="$PROJECT_DIR$/regEdu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.shadowFileHandler">
+  <component name="RunManager" selected="Python.shadowHandlerSimple">
     <configuration default="false" name="hostHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -331,6 +349,25 @@
       <module name="yandexExam1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="shadowHandlerSimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task2 - shadowFileHandler" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -486,18 +523,20 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.hostHandler" />
       <item index="1" class="java.lang.String" itemvalue="Python.trash" />
       <item index="2" class="java.lang.String" itemvalue="Python.edu2" />
       <item index="3" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
+      <item index="4" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
-        <item index="1" class="java.lang.String" itemvalue="Python.hostHandler" />
-        <item index="2" class="java.lang.String" itemvalue="Python.trash" />
-        <item index="3" class="java.lang.String" itemvalue="Python.edu2" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+        <item index="1" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
+        <item index="2" class="java.lang.String" itemvalue="Python.hostHandler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.trash" />
+        <item index="4" class="java.lang.String" itemvalue="Python.edu2" />
       </list>
     </recent_temporary>
   </component>
@@ -545,29 +584,33 @@
       <created>1381166246554</created>
       <updated>1381166246554</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="навел порядок в директориях. работа над второй азадачей.&#10;почти сделал решение с регуляркой. потом подумал може чвто-то проще сделать?">
+      <created>1381179156530</created>
+      <updated>1381179156530</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18177083" sideWeight="0.56546766" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18177083" sideWeight="0.5664865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990981" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399287" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -585,33 +628,13 @@
     <MESSAGE value="отладил на мультистроке одну регулряку.&#10;думаю, нужнен список или кортеж строк и еще 1 регулярка" />
     <MESSAGE value="отладка" />
     <MESSAGE value="сделал статический класс обработкич. Сделал обрабочтик работы с внешним миром" />
-    <option name="LAST_COMMIT_MESSAGE" value="сделал статический класс обработкич. Сделал обрабочтик работы с внешним миром" />
+    <MESSAGE value="навел порядок в директориях. работа над второй азадачей.&#10;почти сделал решение с регуляркой. потом подумал може чвто-то проще сделать?" />
+    <option name="LAST_COMMIT_MESSAGE" value="навел порядок в директориях. работа над второй азадачей.&#10;почти сделал решение с регуляркой. потом подумал може чвто-то проще сделать?" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regEdu/edu1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="300" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="66" selection-start="772" selection-end="772" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="810">
@@ -652,27 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="642">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="18" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/regEdu/edu1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="20" column="5" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
@@ -680,23 +682,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
+    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="50" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+        <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
+    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="406" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="896">
+        <state line="33" column="69" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="23" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="495">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="471">
           <folding />
         </state>
       </provider>
