@@ -10,4 +10,13 @@ m = re.finditer(pattern, log)
 result = []
 for x in m:
     result.append(x.groups())
-print(result)
+#print(result)
+
+class A(object):
+    b=2
+    def __init__(self):
+        pass
+
+a = A()
+A.b=5
+print(A.b)

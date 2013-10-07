@@ -2,53 +2,54 @@ __author__ = 'vatslav'
 import re
 import pprint
 file = open('input.txt', "r")
-#hosts = [line for line in file]
-#output = []
-domainSeach = 'domain.tld'
-domainRepl = 'donemain.tld'
-mashinSeash = 'bar'
-mashinRepl = 'baz'
+
 
 
 class HostHandler(object):
     def __init__(self, f):
         self.f=f
+        self.hosts = [line for line in self.f]
+        self.tempOut = []
+        self.out=''
 
-        self.hosts = ''.join(line for line in self.f)
-        #self.hosts = [line for line in self.f]
-        output = []
-        #buf = set(line in self.f)
-        #self.print()
         self.handler()
-        #self.printer()
+        self.printer()
 
     def printer(self):
         print(self.out)
-        print(self.hosts)
 
     @staticmethod
-    def __fixDomain_(m):
-        return ''
+    def handlerStat( ):
+        pass
 
-#t = re.compile('(?P<ip>[\d+.\d+.\d+.\d+]+) | (?P<domain>\w+)')
+    @staticmethod
+    def fixDomain_(hosts, sourceMashin, sourceDomain, replMashin, replDomain ):
+        t = re.compile('({0}[.]{1})+')
+        n = 0
+        for host in hosts:
+            host, n = re.subn(t,'\tbaz.donemain.tld', host)
+            if n>0:
+                host = re.sub(r'\sbar','\tbaz',host)
+            self.tempOut.append(host)
+
+
     def handler(self):
-        #p = re.compile(r'(\sbar[.]domain[.]tld)')
-        t = re.compile(r'(bar[.]domain[.]tld)+')
-        t2 = re.compile(r'\s[bar]{1}')
-        for m in re.finditer(t,self.hosts):
-            print(m.group())
-            print(m.end())
-            print(self.hosts[m.start():m.end()])
-        self.out = re.sub(t, '\tbaz.donemain.tld', self.hosts)
-        #self.hosts = re.sub(t2,'\tbaz',self.hosts)
+        t = re.compile('(bar[.]domain[.]tld)+')
+        n = 0
+        for host in self.hosts:
+            host, n = re.subn(t,'\tbaz.donemain.tld', host)
+            if n>0:
+                host = re.sub(r'bar','\tbaz',host)
+            self.tempOut.append(host)
 
-        #self.hosts=re.sub(p,'\tbaz.donemain.tld', self.hosts)
-        #p = re.compile(r'\sbaz.doneain.tld .')
-        #self.hosts = p.sub()
+
+        self.out = ''.join(line for line in self.tempOut)
+
+
 
 
 
 
 d = HostHandler(file)
 
-
+#print(HostHandler.fixDomain_(1))
