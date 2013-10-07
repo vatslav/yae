@@ -1,0 +1,12 @@
+127.0.0.1	localhost
+127.0.1.1	pooh
+87.250.250.203	foo.domain.tld foo
+77.88.21.3	baz.donemain.tld baz.mydomain.ru baz
+10.188.132.60   mirror.ruopen.ru
+
+# The following lines are desirable for IPv6 capable hosts
+::1     ip6-localhost ip6-loopback
+fe00::0 ip6-localnet
+ff00::0 ip6-mcastprefix
+ff02::1 ip6-allnodes
+ff02::2 ip6-allrouters

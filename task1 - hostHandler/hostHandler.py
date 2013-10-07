@@ -28,8 +28,8 @@ class IOManager(object):
     replMashin = 'baz'
     replDomain =  'donemain.tld'
     def __init__(self):
-        inputfile = open('input.txt', "r")
-        outfile = open('output.txt', "w")
+        inputfile = open('task1 - hostHandler/input.txt', "r")
+        outfile = open('task1 - hostHandler/output.txt', "w")
         hots = [line for line in inputfile]
         out = HostHandler.fixDomain_(hots, self.sourceMashin,self.sourceDomain,self.replMashin,self.replDomain)
         for line in out:
