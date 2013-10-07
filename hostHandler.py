@@ -1,55 +1,39 @@
 __author__ = 'vatslav'
 import re
 import pprint
-file = open('input.txt', "r")
-
 
 
 class HostHandler(object):
-    def __init__(self, f):
-        self.f=f
-        self.hosts = [line for line in self.f]
-        self.tempOut = []
-        self.out=''
-
-        self.handler()
-        self.printer()
-
-    def printer(self):
-        print(self.out)
-
-    @staticmethod
-    def handlerStat( ):
-        pass
+    host = []
+    out = []
 
     @staticmethod
     def fixDomain_(hosts, sourceMashin, sourceDomain, replMashin, replDomain ):
-        t = re.compile('({0}[.]{1})+')
+        t = re.compile(r'(?<=\s)({0}[.]{1})+'.format(sourceMashin,sourceDomain))
         n = 0
+        tempOut = []
         for host in hosts:
-            host, n = re.subn(t,'\tbaz.donemain.tld', host)
+            host, n = re.subn(t,'{0}.{1}'.format(replMashin,replDomain), host)
             if n>0:
-                host = re.sub(r'\sbar','\tbaz',host)
-            self.tempOut.append(host)
+                host = re.sub(r'(?<=\s)({0})'.format(sourceMashin),'{0}'.format(replMashin),host)
+            tempOut.append(host)
+
+        out = ''.join(line for line in tempOut)
+        return out
 
 
-    def handler(self):
-        t = re.compile('(bar[.]domain[.]tld)+')
-        n = 0
-        for host in self.hosts:
-            host, n = re.subn(t,'\tbaz.donemain.tld', host)
-            if n>0:
-                host = re.sub(r'bar','\tbaz',host)
-            self.tempOut.append(host)
+class IOManager(object):
+    sourceMashin = 'bar'
+    sourceDomain = 'domain.tld'
+    replMashin = 'baz'
+    replDomain =  'donemain.tld'
+    def __init__(self):
+        inputfile = open('input.txt', "r")
+        outfile = open('output.txt', "w")
+        hots = [line for line in inputfile]
+        out = HostHandler.fixDomain_(hots, self.sourceMashin,self.sourceDomain,self.replMashin,self.replDomain)
+        for line in out:
+            outfile.write(line)
 
 
-        self.out = ''.join(line for line in self.tempOut)
-
-
-
-
-
-
-d = HostHandler(file)
-
-#print(HostHandler.fixDomain_(1))
+iomanager = IOManager()
