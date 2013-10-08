@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yandexExam1.iws" />
@@ -26,7 +24,7 @@
     <SUITE FILE_PATH="coverage/yandexExam1$debug.coverage" NAME="debug Coverage Results" MODIFIED="1381255378444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381161971366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
-    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381253375637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
+    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381257834558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -40,33 +38,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="hostHandler.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="52" selection-start="251" selection-end="254" vertical-scroll-proportion="-5.4814816" vertical-offset="2" max-vertical-offset="660">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shadowHandlerSimple.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1035">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
           <provider selected="true" editor-type-id="text-editor">
@@ -76,19 +47,37 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nsswitchHandler.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+      <file leaf-file-name="shadowFileHandler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="471">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debug.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/debug.py">
+      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
               <folding />
             </state>
           </provider>
@@ -97,16 +86,16 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="76" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+            <state line="5" column="76" selection-start="390" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="__init__.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py">
+      <file leaf-file-name="input2.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="13" column="0" selection-start="925" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
               <folding />
             </state>
           </provider>
@@ -121,13 +110,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="24" selection-start="1136" selection-end="1141" vertical-scroll-proportion="-5.296296" vertical-offset="277" max-vertical-offset="1155">
+            <state line="16" column="8" selection-start="440" selection-end="440" vertical-scroll-proportion="-0.5916473" vertical-offset="495" max-vertical-offset="1395">
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-5.892857" vertical-offset="405" max-vertical-offset="1035">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/regEdu/edu1.py" />
         <option value="$PROJECT_DIR$/hostHandler.py" />
         <option value="$PROJECT_DIR$/task1 - hostHandler/hostHandler.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
@@ -160,12 +160,13 @@
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalizator.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py" />
-        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
-        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
       </list>
     </option>
   </component>
@@ -258,6 +259,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="task2 - shadowFileHandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandexExam1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="task1 - hostHandler" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -286,7 +301,7 @@
       <recent name="$PROJECT_DIR$/regEdu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nsswitchHandler">
+  <component name="RunManager" selected="Python.mtrAnalisys">
     <configuration default="false" name="shadowFileHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -547,9 +562,9 @@
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-        <item index="1" class="java.lang.String" itemvalue="Python.debug" />
-        <item index="2" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+        <item index="2" class="java.lang.String" itemvalue="Python.debug" />
         <item index="3" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
         <item index="4" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
       </list>
@@ -635,7 +650,11 @@
       <created>1381252233111</created>
       <updated>1381252233111</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="задание 3 прниято!">
+      <created>1381256809036</created>
+      <updated>1381256809036</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -684,61 +703,22 @@
     <MESSAGE value="подготовка перед первым запуском" />
     <MESSAGE value="поправил опечатки от первого запуска" />
     <MESSAGE value="отладка задания 4&#10;нашел баги, тем не менее пока RE" />
-    <option name="LAST_COMMIT_MESSAGE" value="отладка задания 4&#10;нашел баги, тем не менее пока RE" />
+    <MESSAGE value="задание 3 прниято!" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 3 прниято!" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
           <url>file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py</url>
-          <line>54</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py</url>
-          <line>44</line>
-          <option name="timeStamp" value="13" />
+          <line>70</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="18" />
+      <option name="time" value="19" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="69" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="23" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="495">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
@@ -750,36 +730,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="76" selection-start="385" selection-end="385" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="24" selection-start="1136" selection-end="1141" vertical-scroll-proportion="-5.296296" vertical-offset="277" max-vertical-offset="1155">
-          <folding>
-            <element signature="e#22#31#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -797,9 +747,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1035">
+        <state line="3" column="26" selection-start="82" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="31" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
           <folding />
         </state>
       </provider>
@@ -811,10 +768,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="471">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-5.892857" vertical-offset="405" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="925" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="76" selection-start="390" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="8" selection-start="440" selection-end="440" vertical-scroll-proportion="-0.5916473" vertical-offset="495" max-vertical-offset="1395">
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

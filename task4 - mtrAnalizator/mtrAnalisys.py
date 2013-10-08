@@ -14,6 +14,19 @@ class MtrStruct(object):
         self.best=float(best)
         self.wrst=float(wrst)
         self.stdev=float(stdev)
+
+    def __cmp__(self, other):
+        if self.loss>other.loss: return 1
+        if self.loss<other.loss: return -1
+        if self.loss==other.loss:
+            if self.stdev>other.stdev:return 1
+            if self.stdev<other.stdev:return -1
+            if self.stdev==other.stdev:
+                if self.avg>other.avg: return 1
+                if self.avg<other.avg: return -1
+                if self.avg==other.avg: return 0
+
+
     def ToString(self):
         return '{0}, {1}, {2}, {3}'.format(self.n,self.loss,self.stdev, self.avg)
 
@@ -24,7 +37,7 @@ class MtrHandler(object):
     @staticmethod
     def rawDataHandler(mtr):
         mtrStorage = []
-        template = re.compile(r'\s*(?P<n>\d{1})\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d{1,3}\.\d+)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.\d+)\s+(?P<avg>\d+\.\d+)\s+(?P<best>\d+\.\d+)\s+(?P<wrst>\d+\.\d+)\s+(?P<stdev>\d+\.\d+).*')
+        template = re.compile(r'\s*(?P<n>\d{1})\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d{1,3}\.\d+)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*).*')
         for line in mtr:
             m = re.match(template,line)
             if m!=None:
@@ -63,10 +76,13 @@ class MtrHandler(object):
 class IOManager(object):
     def __init__(self):
         inputfile = open('input.txt', "r")
-        outfile = open('output.txt', "w")
+        #outfile = open('output.txt', "w")
         mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
-        outfile.write(str(out))
+        print(out)
+        #outfile.write(str(out))
+        #outfile.close()
+        inputfile.close()
 
 
 iomanger = IOManager()
