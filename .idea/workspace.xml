@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/debug.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -23,8 +24,9 @@
     <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381179837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$debug.coverage" NAME="debug Coverage Results" MODIFIED="1381255378444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
+    <SUITE FILE_PATH="coverage/yandexExam1$debug__1_.coverage" NAME="debug (1) Coverage Results" MODIFIED="1381266650952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
     <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381161971366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
-    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381257834558" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
+    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381267265744" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -38,15 +40,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="11" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1035">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="shadowFileHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -86,7 +79,7 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="76" selection-start="390" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+            <state line="8" column="73" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
               <folding />
             </state>
           </provider>
@@ -95,7 +88,7 @@
       <file leaf-file-name="input2.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="925" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+            <state line="13" column="0" selection-start="925" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
               <folding />
             </state>
           </provider>
@@ -104,7 +97,7 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
               <folding />
             </state>
           </provider>
@@ -113,10 +106,19 @@
       <file leaf-file-name="mtrAnalisys.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="8" selection-start="440" selection-end="440" vertical-scroll-proportion="-0.5916473" vertical-offset="495" max-vertical-offset="1395">
+            <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
               <folding>
-                <element signature="e#22#31#0" expanded="true" />
+                <element signature="e#23#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debug.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/debug.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,7 +129,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-5.892857" vertical-offset="405" max-vertical-offset="1035">
+            <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-12.321428" vertical-offset="225" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -151,8 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/hostHandler.py" />
-        <option value="$PROJECT_DIR$/task1 - hostHandler/hostHandler.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/input.txt" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py" />
@@ -164,8 +164,10 @@
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
-        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/debug.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
       </list>
     </option>
@@ -302,25 +304,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.mtrAnalisys">
-    <configuration default="false" name="shadowFileHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task2 - shadowFileHandler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yandexExam1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="shadowHandlerSimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -400,6 +383,25 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task4 - mtrAnalizator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task4 - mtrAnalizator/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -554,19 +556,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
-      <item index="1" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-      <item index="2" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
-      <item index="4" class="java.lang.String" itemvalue="Python.debug" />
+      <item index="0" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+      <item index="1" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+      <item index="3" class="java.lang.String" itemvalue="Python.debug" />
+      <item index="4" class="java.lang.String" itemvalue="Python.debug (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-        <item index="2" class="java.lang.String" itemvalue="Python.debug" />
-        <item index="3" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-        <item index="4" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.debug (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+        <item index="3" class="java.lang.String" itemvalue="Python.debug" />
+        <item index="4" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
       </list>
     </recent_temporary>
   </component>
@@ -654,7 +656,11 @@
       <created>1381256809036</created>
       <updated>1381256809036</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="задание 4 перегрузка сравнения">
+      <created>1381260899930</created>
+      <updated>1381260899930</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -704,28 +710,15 @@
     <MESSAGE value="поправил опечатки от первого запуска" />
     <MESSAGE value="отладка задания 4&#10;нашел баги, тем не менее пока RE" />
     <MESSAGE value="задание 3 прниято!" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 3 прниято!" />
+    <MESSAGE value="задание 4 перегрузка сравнения" />
+    <option name="LAST_COMMIT_MESSAGE" value="задание 4 перегрузка сравнения" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py</url>
-          <line>70</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="23" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
@@ -796,9 +789,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/debug.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+        <state line="18" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
@@ -808,30 +801,37 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-5.892857" vertical-offset="405" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="925" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="435">
+        <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-12.321428" vertical-offset="225" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="76" selection-start="390" selection-end="461" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="240">
+        <state line="8" column="73" selection-start="597" selection-end="597" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="925" selection-end="1522" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="930">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="8" selection-start="440" selection-end="440" vertical-scroll-proportion="-0.5916473" vertical-offset="495" max-vertical-offset="1395">
+        <state line="0" column="21" selection-start="21" selection-end="21" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1215">
           <folding>
-            <element signature="e#22#31#0" expanded="true" />
+            <element signature="e#23#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,10 +1,13 @@
-__author__ = 'django'
+__author__ = 'vats;av'
 import re
 import functools
 from functools import reduce
+from copy import deepcopy,copy
 
+@functools.total_ordering
 class MtrStruct(object):
     def __init__(self,n, ip, loss, snt, last, avg, best, wrst, stdev):
+        core = []
         self.n=int(n)
         self.ip = ip
         self.loss = float(loss)
@@ -15,19 +18,27 @@ class MtrStruct(object):
         self.wrst=float(wrst)
         self.stdev=float(stdev)
 
-    def __cmp__(self, other):
+    def __gt__(self, other): #>
         if self.loss>other.loss: return 1
-        if self.loss<other.loss: return -1
+        if self.loss<other.loss: return 0
         if self.loss==other.loss:
             if self.stdev>other.stdev:return 1
-            if self.stdev<other.stdev:return -1
+            if self.stdev<other.stdev:return 0
             if self.stdev==other.stdev:
                 if self.avg>other.avg: return 1
-                if self.avg<other.avg: return -1
-                if self.avg==other.avg: return 0
+                else: return 0
 
+    def __eq__(self, other):
+        if self.loss==other.loss:
+            if self.stdev==other.stdev:
+                if self.avg==other.avg: return 1
+        return  0
 
-    def ToString(self):
+    def __copy__(self, memodict={}):
+        t = MtrStruct(self.n, self.ip, self.loss, self.snt, self.last, self.avg, self.best, self.wrst, self.stdev)
+        return t
+
+    def __str__(self):
         return '{0}, {1}, {2}, {3}'.format(self.n,self.loss,self.stdev, self.avg)
 
 #HOST: pooh                       Loss%   Snt   Last   Avg  Best  Wrst StDev
@@ -37,7 +48,7 @@ class MtrHandler(object):
     @staticmethod
     def rawDataHandler(mtr):
         mtrStorage = []
-        template = re.compile(r'\s*(?P<n>\d{1})\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d{1,3}\.\d+)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*).*')
+        template = re.compile(r'\s*(?P<n>\d+)\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d{1,3}\.\d+)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*).*')
         for line in mtr:
             m = re.match(template,line)
             if m!=None:
@@ -47,41 +58,18 @@ class MtrHandler(object):
 
     @staticmethod
     def analisys(mtr):
-        def findMax(storage, fieldName):
-            field = lambda f:exec(f)
-            value = eval('storage[0].{0}'.format(fieldName))
-            n = 0
-            allEquals = True
-            for i in range(len(storage)):
-                temp = eval('storage[i].{0}'.format(fieldName))
-                if temp>value:
-                    value = eval('storage[i].{0}'.format(fieldName))
-                    n = storage[i].n
-                    allEquals = False
-
-
-            return (value,n, allEquals)
-
         storage = MtrHandler.rawDataHandler(mtr)
-        n=0
-        allEquals = True
-        value, n, allEquals = findMax(storage,'loss')
-        if (allEquals):
-            value, n, allEquals = findMax(storage,'stdev')
-            if (allEquals):
-                value, n, allEquals = findMax(storage,'avg')
-        return n
+        return max(storage).n
 
 
 class IOManager(object):
     def __init__(self):
         inputfile = open('input.txt', "r")
-        #outfile = open('output.txt', "w")
+        outfile = open('output.txt', "w")
         mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
-        print(out)
-        #outfile.write(str(out))
-        #outfile.close()
+        outfile.write(str(out))
+        outfile.close()
         inputfile.close()
 
 
