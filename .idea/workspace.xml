@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yandexExam1.iws" />
@@ -19,12 +20,13 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381162211225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381242061755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
+    <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381256695983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381170493752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381179837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
+    <SUITE FILE_PATH="coverage/yandexExam1$debug.coverage" NAME="debug Coverage Results" MODIFIED="1381255378444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381161971366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
-    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381252124777" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
+    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381253375637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -41,7 +43,7 @@
       <file leaf-file-name="hostHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="660">
+            <state line="11" column="52" selection-start="251" selection-end="254" vertical-scroll-proportion="-5.4814816" vertical-offset="2" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -59,7 +61,7 @@
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="5" selection-start="1112" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="339" max-vertical-offset="1035">
+            <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -68,16 +70,25 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="17" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1035">
+            <state line="38" column="11" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nsswitchHandler.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="nsswitchHandler.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="9" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="471">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debug.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/debug.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -110,22 +121,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="24" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.4585153" vertical-offset="585" max-vertical-offset="1170">
+            <state line="28" column="24" selection-start="1136" selection-end="1141" vertical-scroll-proportion="-5.296296" vertical-offset="277" max-vertical-offset="1155">
               <folding>
                 <element signature="e#22#31#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_pydev_execfile.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -148,7 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/trash.py" />
         <option value="$PROJECT_DIR$/regEdu/edu1.py" />
         <option value="$PROJECT_DIR$/hostHandler.py" />
         <option value="$PROJECT_DIR$/task1 - hostHandler/hostHandler.py" />
@@ -157,12 +158,14 @@
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py" />
         <option value="$PROJECT_DIR$/regEdu/edu2.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
-        <option value="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
-        <option value="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalizator.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py" />
-        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
+        <option value="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" />
+        <option value="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
+        <option value="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
+        <option value="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
       </list>
     </option>
   </component>
@@ -245,6 +248,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandexExam1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task1 - hostHandler" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -269,28 +286,7 @@
       <recent name="$PROJECT_DIR$/regEdu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mtrAnalisys">
-    <configuration default="false" name="hostHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="/usr/bin/python3.3" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yandexExam1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task1 - hostHandler/hostHandler.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.nsswitchHandler">
     <configuration default="false" name="shadowFileHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,6 +360,27 @@
       <module name="yandexExam1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task3 - nsswitch.conf" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -522,19 +539,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.hostHandler" />
-      <item index="1" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
-      <item index="2" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-      <item index="3" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+      <item index="0" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+      <item index="2" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+      <item index="3" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+      <item index="4" class="java.lang.String" itemvalue="Python.debug" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
-        <item index="1" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-        <item index="2" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-        <item index="3" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.hostHandler" />
+        <item index="0" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+        <item index="1" class="java.lang.String" itemvalue="Python.debug" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+        <item index="3" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+        <item index="4" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -614,7 +631,11 @@
       <created>1381243073833</created>
       <updated>1381243073833</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="отладка задания 4&#10;нашел баги, тем не менее пока RE">
+      <created>1381252233111</created>
+      <updated>1381252233111</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -662,7 +683,8 @@
     <MESSAGE value="написал большую именнованую регулярку + остальное&#10;iomanager, mtrHandler, MtrStruct" />
     <MESSAGE value="подготовка перед первым запуском" />
     <MESSAGE value="поправил опечатки от первого запуска" />
-    <option name="LAST_COMMIT_MESSAGE" value="поправил опечатки от первого запуска" />
+    <MESSAGE value="отладка задания 4&#10;нашел баги, тем не менее пока RE" />
+    <option name="LAST_COMMIT_MESSAGE" value="отладка задания 4&#10;нашел баги, тем не менее пока RE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -678,17 +700,10 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="406" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
@@ -731,37 +746,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="17" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="5" selection-start="1112" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
@@ -789,10 +776,45 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="24" selection-start="2029" selection-end="2029" vertical-scroll-proportion="0.4585153" vertical-offset="585" max-vertical-offset="1170">
+        <state line="28" column="24" selection-start="1136" selection-end="1141" vertical-scroll-proportion="-5.296296" vertical-offset="277" max-vertical-offset="1155">
           <folding>
             <element signature="e#22#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="52" selection-start="251" selection-end="254" vertical-scroll-proportion="-5.4814816" vertical-offset="2" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="38" column="11" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="397" selection-end="397" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="471">
+          <folding />
         </state>
       </provider>
     </entry>

@@ -36,7 +36,7 @@ group:      files
 #initgroups: files
 
 #hosts:     db files nisplus nis dns
-hosts:      files mdns4_minimal [NOTFOUND=return] dns myhostname
+hosts:     smyhostname files mdns4_minimal [NOTFOUND=return] dns myhostname
 
 # Example - obey only what nisplus tells us...
 #services:   nisplus [NOTFOUND=return] files

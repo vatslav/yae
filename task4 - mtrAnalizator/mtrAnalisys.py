@@ -67,7 +67,6 @@ class IOManager(object):
         mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
         outfile.write(str(out))
-        inputfile.close()
-        outfile.close()
+
 
 iomanger = IOManager()
