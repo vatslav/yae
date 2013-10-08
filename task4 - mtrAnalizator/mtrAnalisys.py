@@ -68,9 +68,10 @@ class IOManager(object):
         outfile = open('output.txt', "w")
         mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
-        outfile.write(str(out))
+        print(out)
+        #outfile.write(str(out))
         outfile.close()
-        inputfile.close()
+        #inputfile.close()
 
 
 iomanger = IOManager()
