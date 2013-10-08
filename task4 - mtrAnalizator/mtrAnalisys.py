@@ -23,8 +23,9 @@ class MtrHandler(object):
     @staticmethod
     def rawDataHandler(mtr):
         mtrStorage = []
-        template = re.compile(r'(?P<n>\d{1})\.[|]{1}--\s+(?P<ip>(\d{1,3}\.){3}\d{1,3})\s+(?P<loss>\d{1,2}\.\d+%)\s+(?P<cnt>\d+)\s+(?P<last>\d+\.\d+)\s+(?P<avg>\d+\.\d+)\s+(?P<best>\d+\.\d+)\s+(?P<wrst>\d+\.\d+)\s+(?P<stdev>\d+\.\d+)')
+        template = re.compile(r'\s*(?P<n>\d{1})\.[|]{1}--\s+(?P<ip>(\d{1,3}\.){3}\d{1,3})\s+(?P<loss>\d{1,2}\.\d+)%\s+(?P<snt>\d+)\s+(?P<last>\d+\.\d+)\s+(?P<avg>\d+\.\d+)\s+(?P<best>\d+\.\d+)\s+(?P<wrst>\d+\.\d+)\s+(?P<stdev>\d+\.\d+).*')
         for line in mtr:
+            print(line)
             m = re.match(template,line)
             if m!=None:
                 mtrStorage.append(MtrStruct(m.group('n'),m.group('ip'),m.group('loss'),m.group('snt'),m.group('last'),m.group('avg'),m.group('best'),m.group('wrst'),m.group('stdev')))
@@ -48,7 +49,7 @@ class IOManager(object):
     def __init__(self):
         inputfile = open('input.txt', "r")
         outfile = open('output.txt', "w")
-        mtr = [line for line in inputfile]
+        mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
 
         print(out)
