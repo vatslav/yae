@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -18,7 +20,7 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381162211225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381226697710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
+    <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381226928551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381170493752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381179837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
@@ -36,6 +38,15 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="hostHandler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="660">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="shadowHandlerSimple.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -66,16 +77,43 @@
       <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="23" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1035">
+            <state line="52" column="17" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="nsswitchHandler.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="nsswitchHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="32" selection-start="181" selection-end="181" vertical-scroll-proportion="0.1910828" vertical-offset="0" max-vertical-offset="471">
+            <state line="16" column="17" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="8" selection-start="342" selection-end="342" vertical-scroll-proportion="0.30963302" vertical-offset="0" max-vertical-offset="872">
               <folding />
             </state>
           </provider>
@@ -85,42 +123,6 @@
         <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_execfile.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="36" column="0" selection-start="1164" selection-end="1164" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="630">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shadowRandomizer.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="23" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="69" selection-start="1066" selection-end="1066" vertical-scroll-proportion="0.0" vertical-offset="54" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edu2.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/regEdu/edu2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="0" selection-start="796" selection-end="796" vertical-scroll-proportion="0.0" vertical-offset="24" max-vertical-offset="495">
               <folding />
             </state>
           </provider>
@@ -155,6 +157,8 @@
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalizator.py" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
       </list>
     </option>
   </component>
@@ -219,7 +223,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task3 - nsswitch.conf" />
+              <option name="myItemId" value="task4 - mtrAnalizator" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -233,7 +237,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="task2 - shadowFileHandler" />
+              <option name="myItemId" value="task3 - nsswitch.conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -584,29 +588,33 @@
       <created>1381182740426</created>
       <updated>1381182740427</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="task3 решил. ищу нужный формат вывода для проверочного бота">
+      <created>1381226899679</created>
+      <updated>1381226899679</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1" y="27" width="1922" height="1054" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18177083" sideWeight="0.5664865" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39891893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18177083" sideWeight="0.6713514" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294964" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.399287" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -627,7 +635,8 @@
     <MESSAGE value="навел порядок в директориях. работа над второй азадачей.&#10;почти сделал решение с регуляркой. потом подумал може чвто-то проще сделать?" />
     <MESSAGE value="2 азадние прошел + написал рандомайзер shadow-файла" />
     <MESSAGE value="task 3 подготовка" />
-    <option name="LAST_COMMIT_MESSAGE" value="task 3 подготовка" />
+    <MESSAGE value="task3 решил. ищу нужный формат вывода для проверочного бота" />
+    <option name="LAST_COMMIT_MESSAGE" value="task3 решил. ищу нужный формат вывода для проверочного бота" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -635,34 +644,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/regEdu/edu1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="5" selection-start="610" selection-end="610" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/input.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
@@ -705,13 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="0" selection-start="33" selection-end="33" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
@@ -726,6 +700,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="17" selection-start="1591" selection-end="1591" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="5" selection-start="1112" selection-end="1117" vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1035">
@@ -733,16 +714,44 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="23" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="474" max-vertical-offset="1035">
+        <state line="16" column="17" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="32" selection-start="181" selection-end="181" vertical-scroll-proportion="0.1910828" vertical-offset="0" max-vertical-offset="471">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="49" selection-end="1144" vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="660">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="8" selection-start="342" selection-end="342" vertical-scroll-proportion="0.30963302" vertical-offset="0" max-vertical-offset="872">
           <folding />
         </state>
       </provider>
