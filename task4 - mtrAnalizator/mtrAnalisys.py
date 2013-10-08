@@ -1,24 +1,25 @@
-import struct
-
 __author__ = 'django'
 import re
+import functools
+from functools import reduce
+
 class MtrStruct(object):
     def __init__(self,n, ip, loss, snt, last, avg, best, wrst, stdev):
-        self.n=n
+        self.n=int(n)
         self.ip = ip
-        self.loss = loss
-        self.snt = snt
-        self.last = last
-        self.avg = avg
-        self.best=best
-        self.wrst=wrst
-        self.stdev=stdev
+        self.loss = float(loss)
+        self.snt = int(snt)
+        self.last = float(last)
+        self.avg = float(avg)
+        self.best=float(best)
+        self.wrst=float(wrst)
+        self.stdev=float(stdev)
 
 #HOST: pooh                        Loss%   Snt   Last   Avg  Best  Wrst StDev
 #  1.|-- 84.201.169.254             0.0%     9    1.3   1.3   1.0   2.4   0.5
 #  2.|-- 37.9.74.134                0.0%     9    1.6  18.4   1.2 121.4  39.8
 #(?P<n>\d{1})\.[|]{1}--\s+(?P<ip>(\d{1,3}\.){3}\d{1,3})\s+(?P<loss>\d{1,2}\.\d+%)\s+(?P<cnt>\d+)\s+(?P<last>\d+\.\d+)\s+(?P<avg>\d+\.\d+)\s+(?P<best>\d+\.\d+)\s+(?P<wrst>\d+\.\d+)\s+(?P<stdev>\d+\.\d+)
-class mtrHandler(object):
+class MtrHandler(object):
     @staticmethod
     def rawDataHandler(mtr):
         mtrStorage = []
@@ -32,13 +33,15 @@ class mtrHandler(object):
 
     @staticmethod
     def analisys(mtr):
-        storage = mtrHandler.rawDataHandler(mtr)
+        storage = MtrHandler.rawDataHandler(mtr)
+        value = storage[0].loss
+        n = 0
+        for i in range(len(storage)):
+            if storage[i].loss<value:
+                value = storage[i].loss
+                n = i
 
-
-
-
-
-        return
+        return n
 
 
 class IOManager(object):
@@ -46,10 +49,12 @@ class IOManager(object):
         inputfile = open('input.txt', "r")
         outfile = open('output.txt', "w")
         mtr = [line for line in inputfile]
-        out = mtrHandler.analisys(mtr)
+        out = MtrHandler.analisys(mtr)
 
         print(out)
         outfile.write(str(out))
 
         inputfile.close()
         outfile.close()
+
+iomanger = IOManager()

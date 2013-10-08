@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
+    <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="написал большую именнованую регулярку + остальное&#10;iomanager, mtrHandler, MtrStruct">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" afterPath="$PROJECT_DIR$/task3 - nsswitch.conf/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yandexExam1.iws" />
@@ -16,11 +17,12 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381162211225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381226928551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
+    <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381242061755" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381170493752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381179837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381161971366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
+    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381242159958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -82,7 +84,7 @@
       <file leaf-file-name="nsswitchHandler.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="17" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+            <state line="9" column="21" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
               <folding />
             </state>
           </provider>
@@ -109,8 +111,10 @@
       <file leaf-file-name="mtrAnalisys.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="8" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.6111758" vertical-offset="0" max-vertical-offset="915">
-              <folding />
+            <state line="59" column="22" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.81632656" vertical-offset="485" max-vertical-offset="975">
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -261,7 +265,7 @@
       <recent name="$PROJECT_DIR$/regEdu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.nsswitchHandler">
+  <component name="RunManager" selected="Python.mtrAnalisys">
     <configuration default="false" name="hostHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -280,25 +284,6 @@
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="trash" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yandexExam1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/regEdu/edu1.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
@@ -354,6 +339,27 @@
       <module name="yandexExam1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PyDebugRunner" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PyDebugRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="mtrAnalisys" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task4 - mtrAnalizator" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PyDebugRunner" />
       <RunnerSettings RunnerId="PythonRunner" />
@@ -513,18 +519,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.hostHandler" />
-      <item index="1" class="java.lang.String" itemvalue="Python.trash" />
-      <item index="2" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
-      <item index="3" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-      <item index="4" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
+      <item index="2" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+      <item index="3" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+      <item index="4" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-        <item index="1" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-        <item index="2" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.hostHandler" />
-        <item index="4" class="java.lang.String" itemvalue="Python.trash" />
+        <item index="0" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+        <item index="1" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+        <item index="2" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+        <item index="3" class="java.lang.String" itemvalue="Python.shadowFileHandler" />
+        <item index="4" class="java.lang.String" itemvalue="Python.hostHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -592,7 +598,11 @@
       <created>1381227996070</created>
       <updated>1381227996070</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="написал большую именнованую регулярку + остальное&#10;iomanager, mtrHandler, MtrStruct">
+      <created>1381240494569</created>
+      <updated>1381240494569</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -603,14 +613,14 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39891893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39891893" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18177083" sideWeight="0.6713514" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18177083" sideWeight="0.6010811" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43351352" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -637,11 +647,12 @@
     <MESSAGE value="task 3 подготовка" />
     <MESSAGE value="task3 решил. ищу нужный формат вывода для проверочного бота" />
     <MESSAGE value="task4 начало" />
-    <option name="LAST_COMMIT_MESSAGE" value="task4 начало" />
+    <MESSAGE value="написал большую именнованую регулярку + остальное&#10;iomanager, mtrHandler, MtrStruct" />
+    <option name="LAST_COMMIT_MESSAGE" value="написал большую именнованую регулярку + остальное&#10;iomanager, mtrHandler, MtrStruct" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -715,13 +726,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="17" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
@@ -750,10 +754,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="264" selection-end="264" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="8" selection-start="1516" selection-end="1516" vertical-scroll-proportion="0.6111758" vertical-offset="0" max-vertical-offset="915">
-          <folding />
+        <state line="59" column="22" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.81632656" vertical-offset="485" max-vertical-offset="975">
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
