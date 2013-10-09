@@ -1,4 +1,4 @@
-__author__ = 'vats;av'
+__author__ = 'vatsav'
 import re
 import functools
 from functools import reduce
@@ -59,7 +59,9 @@ class MtrHandler(object):
     @staticmethod
     def analisys(mtr):
         storage = MtrHandler.rawDataHandler(mtr)
-        return max(storage).n
+        a = max(storage).n
+        b = max(storage)
+        return a
 
 
 class IOManager(object):
@@ -68,7 +70,7 @@ class IOManager(object):
         outfile = open('output.txt', "w")
         mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
-        outfile.write(str(2))
+        outfile.write(str(out))
         outfile.close()
         inputfile.close()
 
