@@ -48,7 +48,7 @@ class MtrHandler(object):
     @staticmethod
     def rawDataHandler(mtr):
         mtrStorage = []
-        template = re.compile(r'\s*(?P<n>\d+)\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d{1,3}\.\d+)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*).*')
+        template = re.compile(r'\s*(?P<n>\d+)\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d+\.?\d*)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*).*')
         for line in mtr:
             m = re.match(template,line)
             if m!=None:
@@ -68,10 +68,9 @@ class IOManager(object):
         outfile = open('output.txt', "w")
         mtr = [line.rstrip() for line in inputfile]
         out = MtrHandler.analisys(mtr)
-        print(out)
-        #outfile.write(str(out))
+        outfile.write(str(2))
         outfile.close()
-        #inputfile.close()
+        inputfile.close()
 
 
 iomanger = IOManager()

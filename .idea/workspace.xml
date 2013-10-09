@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f5407c1-7a53-4fde-b622-eb487528c4a2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" afterPath="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="yandexExam1.iws" />
@@ -18,14 +16,16 @@
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/yandexExam1$trash.coverage" NAME="trash Coverage Results" MODIFIED="1381162211225" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/yandexExam1$debug__2_.coverage" NAME="debug (2) Coverage Results" MODIFIED="1381312204514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task5 - access.log" />
     <SUITE FILE_PATH="coverage/yandexExam1$nsswitchHandler.coverage" NAME="nsswitchHandler Coverage Results" MODIFIED="1381256695983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$hostHandler.coverage" NAME="hostHandler Coverage Results" MODIFIED="1381170493752" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowFileHandler.coverage" NAME="shadowFileHandler Coverage Results" MODIFIED="1381179837485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
     <SUITE FILE_PATH="coverage/yandexExam1$debug.coverage" NAME="debug Coverage Results" MODIFIED="1381255378444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task3 - nsswitch.conf" />
     <SUITE FILE_PATH="coverage/yandexExam1$shadowHandlerSimple.coverage" NAME="shadowHandlerSimple Coverage Results" MODIFIED="1381182557264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task2 - shadowFileHandler" />
+    <SUITE FILE_PATH="coverage/yandexExam1$accessLogAnalisator.coverage" NAME="accessLogAnalisator Coverage Results" MODIFIED="1381312265986" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task5 - access.log" />
     <SUITE FILE_PATH="coverage/yandexExam1$debug__1_.coverage" NAME="debug (1) Coverage Results" MODIFIED="1381266650952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
     <SUITE FILE_PATH="coverage/yandexExam1$edu2.coverage" NAME="edu2 Coverage Results" MODIFIED="1381161971366" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/regEdu" />
-    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381267359914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
+    <SUITE FILE_PATH="coverage/yandexExam1$mtrAnalisys.coverage" NAME="mtrAnalisys Coverage Results" MODIFIED="1381306387678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/task4 - mtrAnalizator" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -39,46 +39,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="shadowFileHandler.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="480">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/input.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="585">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="72" selection-start="226" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+            <state line="1" column="68" selection-start="79" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
               <folding />
             </state>
           </provider>
@@ -102,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="mtrAnalisys.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="17" selection-start="2541" selection-end="2541" vertical-scroll-proportion="2.2925763" vertical-offset="0" max-vertical-offset="1230">
+            <state line="50" column="222" selection-start="1682" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1215">
               <folding>
                 <element signature="e#23#32#0" expanded="true" />
               </folding>
@@ -113,10 +77,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="debug.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/debug.py">
+      <file leaf-file-name="input.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task5 - access.log/input.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="11" selection-start="434" selection-end="434" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+            <state line="1" column="16" selection-start="290" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="output.txt" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task5 - access.log/output.txt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="accessLogAnalisator.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/task5 - access.log/accessLogAnalisator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="43" selection-start="249" selection-end="249" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="510">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="debug.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task5 - access.log/debug.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="8" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nsswitchHandler.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="27" selection-start="50" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
               <folding />
             </state>
           </provider>
@@ -128,7 +128,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-12.321428" vertical-offset="225" max-vertical-offset="1035">
+            <state line="52" column="17" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-10.178572" vertical-offset="495" max-vertical-offset="1035">
               <folding />
             </state>
           </provider>
@@ -152,10 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowFileHandler.py" />
-        <option value="$PROJECT_DIR$/task2 - shadowFileHandler/input.txt" />
-        <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowRandomizer.py" />
-        <option value="$PROJECT_DIR$/regEdu/edu2.py" />
         <option value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalizator.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py" />
@@ -165,9 +161,13 @@
         <option value="$PROJECT_DIR$/task3 - nsswitch.conf/input.txt" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/debug.py" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input2.txt" />
-        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/input.txt" />
+        <option value="$PROJECT_DIR$/task4 - mtrAnalizator/output.txt" />
         <option value="$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py" />
+        <option value="$PROJECT_DIR$/task5 - access.log/input.txt" />
+        <option value="$PROJECT_DIR$/task5 - access.log/accessLogAnalizator.py" />
+        <option value="$PROJECT_DIR$/task5 - access.log/debug.py" />
+        <option value="$PROJECT_DIR$/task5 - access.log/accessLogAnalisator.py" />
       </list>
     </option>
   </component>
@@ -219,6 +219,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yandexExam1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yae" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="task5 - access.log" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -297,31 +311,15 @@
     </option>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/task5 - access.log" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/task1 - hostHandler" />
       <recent name="$PROJECT_DIR$/regEdu" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.mtrAnalisys">
-    <configuration default="false" name="shadowHandlerSimple" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task2 - shadowFileHandler" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yandexExam1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.accessLogAnalisator">
     <configuration default="false" name="nsswitchHandler" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -364,27 +362,6 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="debug" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task3 - nsswitch.conf" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="yandexExam1" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task3 - nsswitch.conf/debug.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="debug (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -399,6 +376,44 @@
       <module name="yandexExam1" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task4 - mtrAnalizator/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="debug (2)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task5 - access.log" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task5 - access.log/debug.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="accessLogAnalisator" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/task5 - access.log" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="yandexExam1" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/task5 - access.log/accessLogAnalisator.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -555,19 +570,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
-      <item index="1" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-      <item index="2" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
-      <item index="3" class="java.lang.String" itemvalue="Python.debug" />
-      <item index="4" class="java.lang.String" itemvalue="Python.debug (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+      <item index="2" class="java.lang.String" itemvalue="Python.debug (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python.debug (2)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.accessLogAnalisator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
-        <item index="1" class="java.lang.String" itemvalue="Python.debug (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
-        <item index="3" class="java.lang.String" itemvalue="Python.debug" />
-        <item index="4" class="java.lang.String" itemvalue="Python.shadowHandlerSimple" />
+        <item index="0" class="java.lang.String" itemvalue="Python.accessLogAnalisator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.debug (2)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mtrAnalisys" />
+        <item index="3" class="java.lang.String" itemvalue="Python.debug (1)" />
+        <item index="4" class="java.lang.String" itemvalue="Python.nsswitchHandler" />
       </list>
     </recent_temporary>
   </component>
@@ -663,7 +678,11 @@
       <created>1381267317074</created>
       <updated>1381267317074</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="не могу исправить RE">
+      <created>1381267753006</created>
+      <updated>1381267753006</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -715,7 +734,8 @@
     <MESSAGE value="задание 3 прниято!" />
     <MESSAGE value="задание 4 перегрузка сравнения" />
     <MESSAGE value="задание 4 решетильно выверенное, но тем не мение не принятое решение" />
-    <option name="LAST_COMMIT_MESSAGE" value="задание 4 решетильно выверенное, но тем не мение не принятое решение" />
+    <MESSAGE value="не могу исправить RE" />
+    <option name="LAST_COMMIT_MESSAGE" value="не могу исправить RE" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -723,55 +743,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task1 - hostHandler/hostHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="52" selection-start="251" selection-end="254" vertical-scroll-proportion="-5.4814816" vertical-offset="2" max-vertical-offset="660">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/debug.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="14" selection-start="128" selection-end="128" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="26" selection-start="82" selection-end="92" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="55" selection-end="55" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="11" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.0" vertical-offset="414" max-vertical-offset="1035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="1" selection-start="1" selection-end="1" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="90">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/task1 - hostHandler/output.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
@@ -800,12 +771,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
+    <entry file="file://$PROJECT_DIR$/task2 - shadowFileHandler/shadowHandlerSimple.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="24" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="225">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/output.txt">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1124" selection-end="1124" vertical-scroll-proportion="-12.321428" vertical-offset="225" max-vertical-offset="1035">
+        <state line="38" column="11" selection-start="1123" selection-end="1123" vertical-scroll-proportion="0.78571427" vertical-offset="592" max-vertical-offset="1035">
           <folding />
         </state>
       </provider>
@@ -824,19 +802,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/task5 - access.log/output.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="471">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/input.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="17" selection-start="1605" selection-end="1605" vertical-scroll-proportion="-10.178572" vertical-offset="495" max-vertical-offset="1035">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/input.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="72" selection-start="226" selection-end="230" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+        <state line="1" column="68" selection-start="79" selection-end="145" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="180">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task3 - nsswitch.conf/nsswitchHandler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="27" selection-start="50" selection-end="59" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/task4 - mtrAnalizator/mtrAnalisys.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="17" selection-start="2541" selection-end="2541" vertical-scroll-proportion="2.2925763" vertical-offset="0" max-vertical-offset="1230">
+        <state line="50" column="222" selection-start="1682" selection-end="1872" vertical-scroll-proportion="0.0" vertical-offset="585" max-vertical-offset="1215">
           <folding>
             <element signature="e#23#32#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task5 - access.log/debug.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="8" selection-start="196" selection-end="196" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="300">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task5 - access.log/input.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="16" selection-start="290" selection-end="317" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/task5 - access.log/accessLogAnalisator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="43" selection-start="249" selection-end="249" vertical-scroll-proportion="0.2866242" vertical-offset="0" max-vertical-offset="510">
+          <folding />
         </state>
       </provider>
     </entry>
