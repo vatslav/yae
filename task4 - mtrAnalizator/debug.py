@@ -18,4 +18,5 @@ class T(object):
 a = T(2)
 b = copy(a)
 a.a=5
-print(b)
+
+print(int('05,3'))

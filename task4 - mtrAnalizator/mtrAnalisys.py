@@ -48,9 +48,9 @@ class MtrHandler(object):
     @staticmethod
     def rawDataHandler(mtr):
         mtrStorage = []
-        template = re.compile(r'\s*(?P<n>\d+)\.[|]{1}--\s+(?P<ip>\S+)\s+(?P<loss>\d+\.?\d*)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*).*')
+        template = re.compile(r'\s*(?P<n>\d+)\s*\.\s*[|]{1}\s*-\s*-\s+(?P<ip>\S+)\s+(?P<loss>\d+\.?\d*)%?\s+(?P<snt>\d+)\s+(?P<last>\d+\.?\d*)\s+(?P<avg>\d+\.?\d*)\s+(?P<best>\d+\.?\d*)\s+(?P<wrst>\d+\.?\d*)\s+(?P<stdev>\d+\.?\d*)')
         for line in mtr:
-            m = re.match(template,line)
+            m = re.search(template,line)
             if m!=None:
                 mtrStorage.append(MtrStruct(m.group('n'),m.group('ip'),m.group('loss'),m.group('snt'),m.group('last'),m.group('avg'),m.group('best'),m.group('wrst'),m.group('stdev')))
 
